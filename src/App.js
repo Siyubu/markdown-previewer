@@ -63,10 +63,10 @@ export default class App extends Component{
   render(){
     return (
       <div className="App">
-        <div className="col-md-8 offset-md-2">
+        <div className="'col-sm-5 col-sm-offset-2 col-md-8 offset-md-2">
         <MarkdownInput initialState={this.state.markdownInput} handleChange={this.handleChange} />
         </div>
-        <div className="col-md-10 offset-md-1">
+        <div className="'col-sm-5 col-sm-offset-2 col-md-10 offset-md-1">
         <MarkdownOutput  source={this.state.markdownInput} />
         </div> 
       </div>
