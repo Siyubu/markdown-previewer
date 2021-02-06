@@ -26,9 +26,10 @@ body {
 .fa {
   position: absolute;
   right: -5px;
+  color: white;
 }
 .card-header i {
   width: 25px;
-  color: black;
+  color: white;
   margin-left: 5px;
 }
