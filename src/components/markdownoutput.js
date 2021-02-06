@@ -4,11 +4,11 @@ import '../index.css'
 export default class MarkdownOutput extends Component{
     render(){
         return (
-            <div className="card" >
+            <div className="card prev" >
             <div class="card-header">
                 Preview
             </div>
-            <div id="preview" class=" card-body prev" >
+            <div id="preview" class=" card-body" >
                 <ReactMarkdown  source={this.props.source} />
             </div>
             </div>
